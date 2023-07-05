@@ -1,0 +1,6 @@
+li.jobs-unified-top-card__job-insight--highlight,
+div.jobs-unified-top-card__primary-description > div > span:last-child,
+.tvm__text tvm__text--positive
+{
+  display: none !important;
+}
