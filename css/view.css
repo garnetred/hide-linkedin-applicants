@@ -1,0 +1,4 @@
+.jobs-unified-top-card__subtitle-secondary-grouping
+  > .jobs-unified-top-card__bullet {
+  display: none !important;
+}
