@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Hide LinkedIn Applicants",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Hide the number of job applicants for roles on LinkedIn.",
    "permissions": ["scripting"],
   "icons": {
@@ -26,7 +26,7 @@
         "matches": [
         "*://www.linkedin.com/jobs/*"
       ],
-      "css": ["css/global.css"]
+      "css": ["css/search.css", "css/view.css"]
     }
 ],
   "host_permissions": [

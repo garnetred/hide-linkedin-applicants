@@ -1,13 +1,22 @@
 chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
   const tabUrl = tab.url ?? tab.pendingUrl;
   if (
-    changeInfo.status === 'complete' &&
+    changeInfo.status === "complete" &&
     tabUrl &&
-    (tabUrl.includes('linkedin.com/feed') || tabUrl.includes('linkedin.com/in'))
+    tabUrl.includes("linkedin.com/jobs/search")
   ) {
     chrome.scripting.insertCSS({
       target: { tabId: tabId },
-      files: ['css/global.css'],
+      files: ["css/search.css"],
+    });
+  } else if (
+    changeInfo.status === "complete" &&
+    tabUrl &&
+    tabUrl.includes("linkedin.com/jobs/view")
+  ) {
+    chrome.scripting.insertCSS({
+      target: { tabId: tabId },
+      files: ["css/view.css"],
     });
   }
 });
