@@ -1,7 +1,9 @@
-li.jobs-unified-top-card__job-insight--highlight,
+.jobs-unified-top-card__job-insight--highlight,
 div.jobs-unified-top-card__primary-description > div > span:last-child,
 li.job-card-container__footer-item > strong,
 li.job-card-container__applicant-count,
-.jobs-unified-top-card__applicant-count {
+.jobs-unified-top-card__applicant-count,
+.jobs-unified-top-card__subtitle-secondary-grouping
+  > .jobs-unified-top-card__bullet {
   display: none !important;
 }
