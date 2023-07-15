@@ -10,10 +10,8 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
       files: ["css/view.css"],
     });
   } else if (
-    (changeInfo.status === "complete" &&
-      tabUrl &&
-      tabUrl.includes("linkedin.com/jobs/search")) ||
-    tabUrl.includes("linkedin.com/jobs/collections") ||
+    changeInfo.status === "complete" &&
+    tabUrl &&
     tabUrl.includes("linkedin.com/jobs")
   ) {
     chrome.scripting.insertCSS({
