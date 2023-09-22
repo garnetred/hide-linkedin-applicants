@@ -29,3 +29,5 @@ If you navigate to `linkedin.com/jobs` while logged in and view specific jobs or
 I think the same code used to hide the job applicant insights in the unordered list below each job title may also be hiding job posting verification - this is because both elements have the same class. In the future I'd like to come up to a solution to fix this.
 I'd also like to create a Firefox version of this extension at some point.
 
+## Donate 
+You can support this extension by [buying me a coffee](https://www.buymeacoffee.com/decemberthedeveloper) to help me continue to make free, user-friendly browser extensions. 
