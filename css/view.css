@@ -2,3 +2,7 @@
   > .jobs-unified-top-card__bullet {
   display: none !important;
 }
+
+span.tvm__text:not(:has(span)) {
+  display: none !important;
+}
