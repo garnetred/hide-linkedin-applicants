@@ -1,12 +1,13 @@
 # Hide LinkedIn Applicants
 
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/decemberthedeveloper)
+
 ## Abstract
 This browser extension hides the number of job applicants for any given job on LinkedIn.
 
 **Note**: this has *not* been tested with LinkedIn Premium. If you're still seeing job applicants on LinkedIn premium feel free to shoot me a message or create an issue so I can work to fix this. 
 
-## Donate 
-You can support this extension by [buying me a coffee](https://www.buymeacoffee.com/decemberthedeveloper) to help me continue to make free, user-friendly browser extensions. 
+This extension is also available via the [Chrome Web Store](https://chrome.google.com/webstore/detail/hide-linkedin-applicants/kijengemjcefglfhbkjhfnilepigfcop). 
 
 ## Tech Stack
 This project uses vanilla JS, CSS, and HTML.
