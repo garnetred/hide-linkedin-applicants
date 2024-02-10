@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Hide LinkedIn Applicants",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Hide the number of job applicants for roles on LinkedIn.",
    "permissions": ["scripting"],
   "icons": {
