@@ -8,9 +8,9 @@ li.job-card-container__applicant-count,
   display: none !important;
 }
 
-span.tvm__text:not(:has(span)) {
+/* span.tvm__text:not(:has(span)) {
   display: none !important;
-}
+} */
 
 li.job-details-jobs-unified-top-card__job-insight--highlight:not(:has(button)) {
   display: none !important;
