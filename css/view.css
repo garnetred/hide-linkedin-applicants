@@ -3,6 +3,12 @@
   display: none !important;
 }
 
+.job-details-jobs-unified-top-card__job-insight--highlight:has(
+    .t-black--light
+  ) {
+  display: none !important;
+}
+
 span.tvm__text:not(:has(span)) {
   display: none !important;
 }

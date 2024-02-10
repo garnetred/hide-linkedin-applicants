@@ -13,5 +13,5 @@ span.tvm__text:not(:has(span)) {
 }
 
 li.job-details-jobs-unified-top-card__job-insight--highlight:not(:has(button)) {
-  display: none;
+  display: none !important;
 }
