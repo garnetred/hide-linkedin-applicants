@@ -5,12 +5,6 @@
 
 /* hides "see how you compare to x applicants" option next to reactivate premium button */
 
-/* .job-details-jobs-unified-top-card__job-insight--highlight:has(
-    .t-black--light
-  ) {
-  display: none !important;
-} */
-
 .job-details-jobs-unified-top-card__job-insight--highlight:has(div):has(
     div
   ):has(div):has(svg[data-test-icon="lightbulb-medium"]) {
@@ -18,7 +12,6 @@
 }
 
 /* hides applicant count at top of page next to company name and location */
-
 .tvm__text--neutral {
   display: none !important;
 }
