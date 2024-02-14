@@ -11,8 +11,13 @@
   display: none !important;
 }
 
-/* hides applicant count at top of page next to company name and location on view page*/
+/* hides applicant count at top of page next to company name and location on view page
 .tvm__text--neutral {
+  display: none !important;
+} */
+
+/* hides applicant count at top of page at linkedin.com/jobs/collections */
+.tvm__text--positive > strong {
   display: none !important;
 }
 
