@@ -3,20 +3,11 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
   if (
     changeInfo.status === "complete" &&
     tabUrl &&
-    tabUrl.includes("linkedin.com/jobs/view")
+    tabUrl.includes("linkedin.com/jobs/")
   ) {
     chrome.scripting.insertCSS({
       target: { tabId: tabId },
-      files: ["css/view.css"],
-    });
-  } else if (
-    changeInfo.status === "complete" &&
-    tabUrl &&
-    tabUrl.includes("linkedin.com/jobs")
-  ) {
-    chrome.scripting.insertCSS({
-      target: { tabId: tabId },
-      files: ["css/search.css"],
+      files: ["css/global.css"],
     });
   }
 });

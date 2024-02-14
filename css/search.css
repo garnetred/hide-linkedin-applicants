@@ -1,15 +1,13 @@
-.jobs-unified-top-card__job-insight--highlight,
-div.jobs-unified-top-card__primary-description-without-tagline
-  > div
-  > span:last-child,
+/* .jobs-unified-top-card__job-insight--highlight,
+div.jobs-unified-top-card__primary-description-without-tagline:last-child,
 li.job-card-container__footer-item > strong,
 li.job-card-container__applicant-count,
 .jobs-unified-top-card__applicant-count,
 .jobs-unified-top-card__subtitle-secondary-grouping
   > .jobs-unified-top-card__bullet {
   display: none !important;
-}
+} */
 
-li.job-details-jobs-unified-top-card__job-insight--highlight:not(:has(button)) {
+/* li.job-details-jobs-unified-top-card__job-insight--highlight:not(:has(button)) {
   display: none !important;
-}
+} */

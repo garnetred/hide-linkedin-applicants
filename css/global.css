@@ -1,0 +1,23 @@
+.jobs-unified-top-card__subtitle-secondary-grouping
+  > .jobs-unified-top-card__bullet {
+  display: none !important;
+}
+
+/* hides "see how you compare to x applicants" option next to reactivate premium button on view page */
+
+.job-details-jobs-unified-top-card__job-insight--highlight:has(div):has(
+    div
+  ):has(div):has(svg[data-test-icon="lightbulb-medium"]) {
+  display: none !important;
+}
+
+/* hides applicant count at top of page at linkedin.com/jobs/collections */
+.tvm__text--positive > strong {
+  display: none !important;
+}
+
+/* bold green text on linkedin.com/jobs/ next to the word promoted */
+
+.job-card-container__footer-item > strong {
+  display: none !important;
+}
