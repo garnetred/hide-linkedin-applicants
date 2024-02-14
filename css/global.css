@@ -3,6 +3,14 @@
   display: none !important;
 }
 
+/* hides "over 100 applicants" message at linkedin.com/jobs/collections */
+
+.job-details-jobs-unified-top-card__primary-description-container:has(div):has(
+    .tvm__text--neutral
+  ):last-child {
+  display: none !important;
+}
+
 /* hides "see how you compare to x applicants" option next to reactivate premium button on view page */
 
 .job-details-jobs-unified-top-card__job-insight--highlight:has(div):has(
