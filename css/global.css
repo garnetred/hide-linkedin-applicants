@@ -24,6 +24,13 @@
   display: none !important;
 }
 
+/* also hides applicant count at top of page at linkedin.com/jobs/collections when it's not in bold */
+
+.job-details-jobs-unified-top-card__primary-description-without-tagline:has(
+    .tvm__text--neutral
+  ):last-child {
+  display: none !important;
+}
 /* bold green text on linkedin.com/jobs/ next to the word promoted */
 
 .job-card-container__footer-item > strong {
