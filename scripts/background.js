@@ -5,6 +5,7 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
     tabUrl &&
     tabUrl.includes("linkedin.com/jobs/")
   ) {
+    console.log(tabUrl, "taburl");
     chrome.scripting.insertCSS({
       target: { tabId: tabId },
       files: ["css/global.css"],
