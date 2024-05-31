@@ -10,9 +10,6 @@
     "48": "images/hide-emoji-48.png",
     "128": "images/hide-emoji-128.png"
   },
-  "background": {
-    "service_worker": "scripts/background.js"
-  },
   "web_accessible_resources": [
     {
       "resources": ["css/*.css"],
@@ -21,11 +18,12 @@
   ],
   "content_scripts": [
     {
-      "matches": ["*://www.linkedin.com/jobs/*"],
-      "css": ["css/global.css"]
+      "matches": ["*://www.linkedin.com/*"],
+      "css": ["css/global.css"],
+      "run_at": "document_start"
     }
   ],
-  "host_permissions": ["*://www.linkedin.com/jobs/*"],
+  "host_permissions": ["*://www.linkedin.com/*"],
   "action": {
     "default_popup": "popup.html"
   }
