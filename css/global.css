@@ -39,10 +39,8 @@
   display: none !important;
 }
 
-job-details-jobs-unified-top-card__primary-description-container
-
 /* bold green text on linkedin.com/jobs/ next to the word promoted */
 
-.job-card-container__footer-item > strong {
+.job-card-container__footer-item:has(strong):has(.tvm__text--positive) {
   display: none !important;
 }
